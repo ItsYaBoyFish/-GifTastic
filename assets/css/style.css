@@ -9,7 +9,7 @@ body {
 .button-holder {
   width: 90%;
   height: 90px;
-  background-color: green;
+  /* background-color: green; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -20,12 +20,12 @@ body {
   margin-right: auto;
   width: 90%;
   height: 800px;
-  background-color: brown;
+  /* background-color: brown; */
 }
 
 .gif-holder {
   float: left;
-  background-color: blue;
+  /* background-color: blue; */
   width: 65%;
   height: 800px;
   margin-right: auto;
@@ -36,6 +36,27 @@ body {
   float: right;
   text-align: center;
   margin-top: 1.5em;
-  margin-right: 4em;
+  margin-right: 2em;
   font-size: 25px;
+}
+
+.gif-style {
+  margin: 1em 1em;
+}
+
+.search {
+  width: 150px;
+  margin-left: 1em;
+  border: none;
+  border-radius: 8px;
+  height: 20px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 6px 20px;
+  border: none;
+  background-color: rgb(66, 173, 209);
+  margin-top: 1em;
+  margin-left: 1em;
 }
