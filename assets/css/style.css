@@ -1,3 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: lightgrey;
+}
+
+.button-holder {
+  width: 90%;
+  height: 90px;
+  background-color: green;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content-container {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 800px;
+  background-color: brown;
+}
+
+.gif-holder {
+  float: left;
+  background-color: blue;
+  width: 65%;
+  height: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.search-holder {
+  float: right;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-right: 4em;
+  font-size: 25px;
 }
