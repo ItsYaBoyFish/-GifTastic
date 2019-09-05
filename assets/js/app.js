@@ -7,7 +7,7 @@ console.log(stateToBeSearched);
 function queryTheAPI() {
   // saving the API Key ---------------------------
   const apiKey = 'nUT3pXgTT8JuRHnl2o3Pv6aYDfhTH8cJ';
-  const apiURL = `https://api.giphy.com/v1/gifs/search?q=${stateToBeSearched}&api_key=${apiKey}&limit=${limit}&rating=g`;
+  const apiURL = `HTTPS://api.giphy.com/v1/gifs/search?q=${stateToBeSearched}&api_key=${apiKey}&limit=${limit}&rating=g`;
   // -----------------------------------------------
   let options = {
     url: apiURL,
